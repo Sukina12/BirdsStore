@@ -26,4 +26,7 @@ for (var i= 0; i<numofbirds; i++)
     result=result+birdtype;
 }
 
+document.write('The Number of image is :');
+document.write(numofbirds);
+
 document.write(result);
