@@ -50,7 +50,7 @@ function getprice ()
     if (bird == "canary")
     {
         price = numofbirds * 5;
-        document.write('<h1>The Price Is</h1>');
+        document.write('<h2>The Price Is</h2>');
         document.write(price);
 
     }
@@ -58,7 +58,7 @@ function getprice ()
   else 
   {
     price = numofbirds * 20;
-    document.write('<h1>The Price Is</h1>');
+    document.write('<h2>The Price Is</h2>');
     document.write(price);
   } 
   

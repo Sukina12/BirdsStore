@@ -1,0 +1,37 @@
+/* 
+background 
+header in the center and cocor
+images smaller
+the style of paragraph
+*/
+
+header {
+    background-color:#f0e4d7 ;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color:#f5c0c0
+}
+
+main {
+    background-color:#ff7171;
+    text-align: center;
+}
+ #pinkcolored {
+     color: palevioletred;
+ }
+
+ #pinkcolored
+ {
+     color:purple
+ }
+
+ img {
+width: 60%;
+margin-left: auto;
+  margin-right: auto;
+ }
+
+ 
