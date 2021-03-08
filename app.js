@@ -1,11 +1,21 @@
-var bird = prompt ("what is your favourite Bird:canary or parrot?");
-
-while (bird != 'canary' && bird != 'parrot')
-     {
-         bird = prompt ("what is your favourite Bird:canary or parrot?");
-     }
+var bird = '';
 
 var birdtype= '';
+
+var numofbirds ='';
+
+var result = '';
+
+var birdname = function()
+    {
+     bird = prompt ("what is your favourite Bird:canary or parrot?");
+
+     while (bird != 'canary' && bird != 'parrot')
+     {
+    bird= prompt ("what is your favourite Bird:canary or parrot?");
+     }
+
+
 
 if (bird == "canary")
   {
@@ -17,16 +27,40 @@ else
     birdtype = '<img src="parrot.webp"/>';
 }
 
-var numofbirds = prompt("How many Birds do you want?");
+ numofbirds = prompt("How many Birds do you want?");
 
-var result = '';
+
 
 for (var i= 0; i<numofbirds; i++)
 {
     result=result+birdtype;
 }
 
-document.write('The Number of image is :');
-document.write(numofbirds);
-
 document.write(result);
+}
+
+birdname ();
+
+
+
+var price ='';
+function getprice ()
+{
+
+    if (bird == "canary")
+    {
+        price = numofbirds * 5;
+        document.write('<h1>The Price Is</h1>');
+        document.write(price);
+
+    }
+  
+  else 
+  {
+    price = numofbirds * 20;
+    document.write('<h1>The Price Is</h1>');
+    document.write(price);
+  } 
+  
+}
+getprice();
